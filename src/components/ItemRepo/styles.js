@@ -13,9 +13,20 @@ export const ItemContainer = styled.div`
         margin: 0 0 2rem 0;
     }
 
-    a .remover{
-        color: #ff0000;
+    .remover{
+        
         margin: 2rem 0 0 0;
+    }
+
+    a{
+        color: #E68CC4;
+        font-size: 1.5rem;
+
+        &:hover {
+            color: #E61501;
+        }
+
+        text-decoration: none;
     }
 
     hr{
